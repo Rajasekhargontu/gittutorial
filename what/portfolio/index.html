@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio</title>
+    <link rel="stylesheet" href="index.css">
+    <script src="index.js" async></script>
+</head>
+
+<body>
+    <section class="container">
+        <nav>
+            <img src="./assets/pngegg.png" class="icon nav-left">
+            
+           
+                <!-- <span class="ham">ham</span> -->
+                <ul class="nav-right">
+                    <li>Home</li>
+                    <li>About</li>
+                    <li>Projects</li>
+                    <li>Skills</li>
+                    <li>Contact</li>
+                </ul>
+            
+
+        </nav>
+
+    </section>
+    <Section class="container hero">
+        <div class="left">
+            <img src="./assets/profile.png" alt="Profile" class="profile">
+        </div>
+        <div class="right">
+            <h3>Raja sekhar reddy gontu</h2>
+                <h2>I am a web developer</h2>
+                <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Dicta tempore est molestiae quae doloremque
+                    ex veniam nihil minima, ipsam error illo a illum dolor eius maxime animi, atque harum explicabo
+                    laborum itaque quasi libero facilis corporis et? Assumenda eius, sapiente reiciendis sint vel ipsum
+                    mollitia minus aliquam quos autem blanditiis.</p>
+                <button>
+                    download resume
+                </button>
+        </div>
+    </Section>
+    <section class="container about">
+        <h2>About Me</h2>
+        <p>
+            I'm a passionate full stack developer with a strong foundation in JavaScript, React, Node.js, and MongoDB.
+            I love building clean, responsive web applications and solving real-world problems through code.
+                Currently, I'm working on enhancing my skills in system design, backend architecture, and cloud deployment.
+            I enjoy collaborating on tech projects, contributing to open source, and constantly learning new tools and
+            frameworks.
+        </p>
+    </section>
+    <section class="container project">
+        <h3>projects</h3>
+        <div class="holder">
+            <div class="cards">this is a projects</div>
+            <div class="cards">this is a projects</div>
+            <div class="cards">this is a projects</div>
+            <div class="cards">this is a projects</div>
+            <div class="cards">this is a projects</div>
+            <div class="cards">this is a projects</div>
+            <div class="cards">this is a projects</div>
+            <div class="cards">this is a projects</div>
+        </div>
+    </section>
+    <section class="container skills">
+        <h3 class="center">skills</h3>
+        <div class="btn-grp">
+            <button class="category active" onclick="show('pl')">Programming languages</button>
+            <button class="category" onclick="show('db')">Databases</button>
+            <button class="category" onclick="show('fsd')">Full Stack Development Toolkit</button>
+            <button class="category" onclick="show('vc')">Version control</button>
+            <button class="category" onclick="show('tools')">Tools</button>
+        </div>
+        <div class="logos">
+        </div>
+    </section>
+    <section class="container contact">
+        <h3>Contact</h3>
+        <form method="post">
+            <input type="text" name="name" id="name" placeholder="Name">
+            <br>
+            <input type="email" name="email" id="email" placeholder="Email"><br>
+            <textarea name="message" id="message" placeholder="Message"></textarea><br>
+            <input type="submit" value="submit">
+        </form>
+        <p>Checkout for me at:</p>
+        <div class="links">
+            <a href="www.gmail.com"><img src="./assets/gm.svg" alt="Gmail"></a>
+            <a href="www.linkedin.com"><img src="./assets/ln.svg" alt="linkedin"></a>
+            <a href="www.leetcode.com"><img src="./assets/lc.svg" alt="Leetcode"></a>
+            <a href="www.github.com"><img src="./assets/github.svg" alt="Github"></a>
+        </div>
+    </section>
+    <footer>
+        &#169; All rights reserved
+    </footer>
+</body>
+
+</html>
